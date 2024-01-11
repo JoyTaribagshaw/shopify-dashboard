@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+background-color: #f1f1f1;
+}
+
+.shopify-icon {
+  color: #ffff;
+}
+
+#nav-bar {
+  display: flex;
+  background-color: #1c181d;
+  align-items: center;
+  padding: 7px;
+  gap: 16px;
+}
+
+.user {
+  display: flex;
+  gap: 16px;
+}
+
+.search-input {
+  display: flex;
+  color: #e3e3e3;
+  border: 1px solid #ffff;
+  border-radius: 10px;
+  width: 15rem;
+  padding: 8px;
+  gap: 6px;
+}
+
+.trial {
+  background-color: #1c181d;
+  margin-top: 2rem;
+  color: #e3e3e3;
+  padding: 10px;
+}
+
+.guide {
+  background-color: #ffff;
+  margin-top: 16px;
+  padding: 10px;
+}
+
+.setup-guide, .trial-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan {
+  padding-top: 16px;
+}
+
+.plan-btn {
+  padding: 7px;
+  border: none;
+  border-radius: 10px;
+}
+
+.setups {
+  display: flex;
+  align-items: center;
+}
