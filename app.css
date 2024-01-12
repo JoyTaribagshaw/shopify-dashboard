@@ -37,6 +37,10 @@ background-color: #f1f1f1;
   gap: 6px;
 }
 
+.search-icon, .notification-icon {
+  filter: brightness(100%);
+}
+
 .trial {
   background-color: #1c181d;
   margin-top: 2rem;
@@ -68,4 +72,8 @@ background-color: #f1f1f1;
 .setups {
   display: flex;
   align-items: center;
+}
+
+.dashed-circle {
+filter: brightness(50%);
 }
