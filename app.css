@@ -38,7 +38,7 @@ background-color: #f1f1f1;
 }
 
 .search-icon, .notification-icon {
-  filter: brightness(100%);
+  filter: brightness(100);
 }
 
 .trial {
@@ -76,4 +76,8 @@ background-color: #f1f1f1;
 
 .dashed-circle {
 filter: brightness(50%);
+}
+
+.close {
+  filter: brightness(100)
 }
