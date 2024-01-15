@@ -37,6 +37,11 @@ background-color: #f1f1f1;
   gap: 6px;
 }
 
+.search {
+  background-color: #1c181d;
+  border: none;
+}
+
 .search-icon, .notification-icon {
   filter: brightness(100);
 }
